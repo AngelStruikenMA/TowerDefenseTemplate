@@ -16,13 +16,13 @@ Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
 Bijvoorbeeld:
 
 *"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+[link naar script]([/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs](https://github.com/AngelStruikenMA/TowerDefenseTemplate/blob/master/Tower%20defense/Assets/scripts/turret%20scripts/buildTower.cs))"*
 
 ## Product 2: "Projectmappen op GitHub"
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Dit is de [ROOT]([/MyTowerDefenseGame/](https://github.com/AngelStruikenMA/TowerDefenseTemplate/blob/master/MyTowerDefenseGame/Screenshot%202024-10-25%20092358.png)) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 

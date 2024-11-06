@@ -9661,6 +9661,7 @@ MonoBehaviour:
   enemiesPerSecond: 0.5
   timeBetweenWaves: 5
   difficultyScalingFactor: 0.75
+  mainmenu: 
 --- !u!1 &515980704
 GameObject:
   m_ObjectHideFlags: 0
