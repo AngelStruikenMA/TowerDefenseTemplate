@@ -10,13 +10,14 @@ Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Pla
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-([/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs](https://github.com/AngelStruikenMA/TowerDefenseTemplate/blob/master/Tower%20defense/Assets/scripts/turret%20scripts/buildTower.cs))"*
+(https://github.com/AngelStruikenMA/TowerDefenseTemplate/blob/master/Tower%20defense/Assets/scripts/turret%20scripts/buildTower.cs))"*
 
 ## Product 2: "Projectmappen op GitHub"
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT]([/MyTowerDefenseGame/](https://github.com/AngelStruikenMA/TowerDefenseTemplate/blob/master/MyTowerDefenseGame/Screenshot%202024-10-25%20092358.png)) folder van mijn unity project.
+![Screenshot 2024-10-25 092358](https://github.com/user-attachments/assets/bb9e6355-b7d3-4652-9252-1447cbbea383)
+
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -24,7 +25,7 @@ Zorg dat deze verwijst naar je Develop branch.
 
 Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
 
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
+(https://github.com/erwinhenraat/TowerDefenseTemplate/releases)](https://github.com/AngelStruikenMA/TowerDefenseTemplate/releases/tag/builds)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
@@ -38,8 +39,8 @@ Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de impl
 ## Product 5: Issues met debug screenshots op GitHub 
 
 Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf je het probleem en je gaat proberen via breakpoints te achterhalen wat het probleem is. Je maakt screenshot(s) van het debuggen op het moment dat je via de debugger console ziet wat er mis is. Deze screenshots met daarbij uitleg over het probleem en de bijhorende oplossing post je in het bijhorende github issue. 
-[Hier de link naar mijn issues](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
-
+[[Hier de link naar mijn issues](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
+](https://github.com/AngelStruikenMA/prog-2.1/issues/1)
 ## Product 6: Game design met onderbouwing 
 
 Je gebruikt een game design tool om je game design vast te leggen en te communiceren. Daarnaast onderbouw je de design keuzes ten aanzien van “playability” en “replayability” voor je game schriftelijk. 
@@ -50,39 +51,34 @@ Voorbeeld van een one page design:
 Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
 
 *  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
-
-*Mijn torens hebben ook nog een f.o.v waardoor je pas gaan mikken als enemies in de buurt zijn. ook hebben mijn torens geen 360 graden view maar 90 graden waardoor het een extra uitdaging is voor de speler om de torens ook op de meest tactische manier te roteren.*
+mijn game bevat toren die je kunt plaatsen en torens die schieten
 
 *  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
-
+ik heb 1 type enemie die het volgt via waypoints en met een bepaald aantal hp zodat hij dood kunt gaan en wanneer de enemie bij het eind komt verlies je
 *  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*Onderbouwing hier...*
+er spawnen in een keer een heleboel enemies
 
 *  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
 
-*Onderbouwing hier...*
+je hebt 1 leven in mijn game als je die verlies heb je verloren
 
 *  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
 
-*Onderbouwing hier...*
+heb ik niet
 
 *  **Een “upgrade” systeem om je torens te verbeteren.**
 
-*Onderbouwing hier...*
+heb ik niet
 
 *  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
 
-*Onderbouwing hier...*
+heb ik niet
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://mermaid.js.org/syntax/classDiagram.html) tool.
+heb ik niet
 
 
 ```mermaid
